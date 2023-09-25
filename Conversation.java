@@ -8,6 +8,7 @@ class Conversation {
     String response = "";
     String answer = "";
     boolean mirror = false;
+    String[] cannedResponses = {"Mmm-hm", "That's cool", "Wow", "Fascinating", "What else?", "Tell me more", "Interesting", "Huh"};
 
     Scanner input = new Scanner(System.in);
 
@@ -66,8 +67,10 @@ class Conversation {
         System.out.println(answer);
         transcript[2*i + 2] = answer;
       } else {
-        System.out.println("Mmm-hmm");
-        transcript[2*i + 2] = "Mmm-hmm";
+        int randIndex = (int)(Math.random() * 8);
+        String cannedResponse = cannedResponses[randIndex];
+        System.out.println(cannedResponse);
+        transcript[2*i + 2] = cannedResponse;
       }
       
       transcript[2*i+1] = response;
