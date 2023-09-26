@@ -1,7 +1,7 @@
 Use this file to record your reflection on this assignment.
 
 - Which classmates did you consult with while working on this assignment?
-Mattea
+Mattea, Mackenzie
 
 - Which session(s) of TA / office hours did you attend?
 Sunday 7:00 pm

@@ -42,7 +42,7 @@ _____ (Kudos!) Handles mirror words with punctuation
 
 _____ (Kudos!) Generates output with correct punctuation & capitalization
 
-___Part__ (Kudos!) Handles you --> me/I dilemma
+_____ (Kudos!) Handles you --> me/I dilemma
 
 
 
