@@ -1,13 +1,17 @@
 import java.util.Scanner;
 
+/**
+ * Creates a conversation with a chat bot
+ */
 class Conversation {
 
   /**
-   * 
-   * @param arguments
+   * Creates a chat bot that answers with either a canned or mirrored response for a specified number of rounds and prints a transcript
+   * @param arguments command line arguments
    */
   public static void main(String[] arguments) {
     
+    //Class Variables
     int rounds = 0;
     String response = "";
     String answer = "";
